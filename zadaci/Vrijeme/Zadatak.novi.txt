@@ -1,0 +1,33 @@
+PARCIJALNI ISPIT – Python u području Internet stvari (IoT)
+
+1. Kreirajte zasebnu aplikaciju s takstualnim sučeljem “Vremenska prognoza”.
+2. Kreirajte mapu (folder) naziva Meteo ili po izboru te u njemu kreirajte jednu
+datoteku koja će predstavljati početnu datoteku za izvršavanje Vašeg meteo
+modula.
+Ovaj modul će potencijalno biti dio veće aplikaciju pa svakako dodajte i
+__init__.py datoteku.
+3. Funkcionalnosti koje modul program treba imati su:
+a. Prikupljati (napravite funkciju koja generira random vrijednosti unutar
+nekog raspona) i prikazivati sljedeće podatke u kući ili stanu:
+i. Temperatura
+ii. Vlažnost
+iii. Tlak
+b. Prikupljati (https://rapidapi.com/weatherapi/api/weatherapi-com) i
+prikazivati podatke sa obližnje meteorološke stanice (Zagreb HR):
+i. Temperatura
+ii. Vlažnost
+iii. Tlak
+iv. Sličica koja predstavlja trenutne uvjete vani
+c. Aplikacija će možda biti diodruge veće aplikacije i trebati će biti
+integrirana u sučelje neke druge aplikacije. Organizirajte vaš kod u jednu
+ili dvije klase.
+d. Očitanja vrijednosti trebaju biti u realnom vremenu. To znači kada se
+promijeni vrijednost u Sense HAT Emulator aplikaciji, promjena se odmah
+vidi i u modulu/aplikaciji.
+e. Svaka promjena vrijednosti praćenih senzora treba biti pohranjena u
+SQLite bazu podataka uz dodane podatke o:
+i. vremenu očitanja,
+ii. vrsti senzora (je li se radi o temperaturi, vlazi ili tlaku) te
+vrijednosti.
+
+f. Morate kreirati bazu i tabelu.

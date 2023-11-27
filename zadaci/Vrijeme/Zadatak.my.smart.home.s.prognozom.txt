@@ -1,0 +1,59 @@
+PRIPREMA ZA PARCIJALNI ISPIT:
+
+1. 	Proširiti već napravljenu aplikaciju 
+	My Smart Home s modulom Meteo koji prikazuje  
+	podatke vremenske prognoze. Ukoliko niste kreirali 
+	aplikaciju My Smart Home iz prethodnih vježbi, 
+	kreirajte zasebnu aplikaciju s grafičkim sučeljem 
+	Vremenska prognoza. 
+2. 	Unutar mape MySmartHome u kojem je aplikaciju 
+	My Smart Home aplikacija s pripadajućim modulima, 
+	kreirajte drugu mapu (folder) naziva Meteo ili 
+	po izboru te  u njemu kreirajte jednu datoteku koja 
+	će predstavljati početnu datoteku za izvršavanje  
+	Vašeg meteo modula. Ovaj modul će biti dio veće 
+	aplikaciju pa svakako dodajte i  __init__.py 
+	datoteku. 
+3. 	Funkcionalnosti koje modul program treba imati su: 
+	a. 	Trenutna temperatura u kući, vani te u gradu. 
+		(Izvor: https://meteo.hr/proizvodi.php?section=podaci&param=xml_korisnici). 
+	b. 	Vlažnost zraka u kući i izvan kuće. 
+		Imate samo jedan izvor, ali simulirate razlike 
+		za očitanja u i izvan kuće. 
+	c. 	Tlak zraka u kući i izvan kuće. Simulirajte 
+		razlike kao pod b.
+	d. 	Aplikacija je dio My Smart Home aplikacije i 
+		treba biti integrirana u sučelje My Smart Home 
+		aplikacije 
+	e. 	Dio podataka treba biti prikazan na početnoj 
+		stranici My Smart Home  aplikacije, a ostatak 
+		u zasebnom dijelu, odnosno kartici / tabu. 
+	f. 	Modul ima karticu (tab) unutar My Smart Home 
+		aplikacije. Ako kreirate drugu aplikaciju, 
+		nema potrebe dodavati kartice. 
+	g. 	Raspored grafičkog sučelja odredite sami 
+		ovisno o elementima koje želite dodati u modul, 
+		odnosno aplikaciju. 
+	h. 	Prikaz vrijednosti temperature, tlaka i vlažnosti 
+		zraka treba biti povezan s Sense HAT Emulator 
+		aplikacijom. 
+	i. 	Očitanja vrijednosti trebaju biti u realnom 
+		vremenu. To znači kada se promijeni vrijednost 
+		u Sense HAT Emulator aplikaciji, promjena se 
+		odmah vidi i u modulu/aplikaciji. 
+	j. 	Ovisno o veličini očitane temperature prikazati 
+		dodatnu ikonu za odjeću (raspone vrijednosti 
+		možete prilagoditi): 
+		i. 		Više od 22 – kratki rukavi 
+		ii.		Od 12 – 22 – lagana jakna 
+		iii.	Od 0 do 12 – zimska jakna 
+		iv. 	Manje od 0 – kapa, šal i zimska jakna 
+	k. 	Svaka promjena vrijednosti praćenih senzora 
+		treba biti pohranjena u SQLite  bazu podataka uz 
+		dodane podatke o vremenu očitanja, vrsti senzora 
+		(je li se  radi o temperaturi, vlazi ili tlaku) 
+		te vrijednosti. 
+
+Ako radite proširenje, onda treba koristiti novu tabelu, 
+a ako koristite samostalnu aplikaciju, morate kreirati 
+bazu i tabelu.
