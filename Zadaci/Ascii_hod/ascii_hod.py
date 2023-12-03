@@ -21,7 +21,7 @@ class Ascii_hod:
         return sadrzaj
     
     def putanja(self, datoteka):
-        return r'{}'.format(os.path.dirname(os.path.abspath(__file__))) + f'\{datoteka}'
+        return r'{}'.format(os.path.dirname(os.path.abspath(__file__))) + f'{chr(92) if os.name == "nt" else "/"}{datoteka}'
     
     def izbrisi_okvir(self,podaci):
         znakovi = ['┌','─','┐','│','└','┘']
