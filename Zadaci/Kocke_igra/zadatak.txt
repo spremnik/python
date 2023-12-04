@@ -1,0 +1,11 @@
+Zadatak:
+Igra na sreću s dvije šesterostrane kockice
+
+Pravila: 
+igrač baca dvije šesterostrane kockice. 
+Ako je zbroj dobivenih brojeva u prvom bacanju 7 ili 11, igrač je pobijedio. 
+Ako je zbroj dobivenih brojeva: 4, 5, 6, 8, 9 ili 10, onda taj broj postaje CILJ, 
+odnosno igrač mora bacati kockice sve dok zbroj dobivenih brojeva ne bude CILJ. 
+Ako je u prvom ili bilo kojem drugom bacanju igrač dobio zbroj brojeva: 2, 3 ili 16(12), 
+igrač je izgubio."
+
