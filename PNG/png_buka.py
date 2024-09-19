@@ -27,3 +27,6 @@ def napravi_png(visina, sirina, podaci):
     return png_oznaka + ihdr_komad + idat_komad + iend_komad
 
 pisi_datoteku('buka.png', napravi_png(240,320,podaci))
+
+
+#nkt
