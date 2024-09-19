@@ -25,4 +25,4 @@ pisi_datoteku('nmpngns.png', napravi_png(1,1,struct.pack("!h", 0)))
 
 
 
-#N
+#M
