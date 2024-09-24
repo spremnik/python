@@ -29,4 +29,4 @@ def napravi_png(visina, sirina, podaci):
 pisi_datoteku('buka.png', napravi_png(240,320,podaci))
 
 
-#4l7
+#456
